@@ -6,7 +6,7 @@ import {
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-} from "@/components/ui/dropdown-menu"; // adjust path
+} from "@/components/ui/dropdown-menu"; 
 import { Button } from "@/components/ui/button";
 import { Sun, Moon } from "lucide-react";
 import Link from "next/link";
