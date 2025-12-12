@@ -20,7 +20,7 @@ export default function Googledorking() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/user", {
+      const res = await fetch("/api/user", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
