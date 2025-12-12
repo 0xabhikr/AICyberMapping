@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import serverless from "serverless-http";
 
 const app = express();
 
@@ -13,11 +14,9 @@ app.post("/user", (req, res) => {
 
   return res.json({
     username: user,
-    phone: phone,
-    email: email
+    phone,
+    email
   });
 });
 
-app.listen(5000, () => {
-  console.log("Server running on http://localhost:5000");
-});
+export const handler = serverless(app);
