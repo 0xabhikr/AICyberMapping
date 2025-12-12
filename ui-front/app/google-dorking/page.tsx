@@ -77,7 +77,7 @@ export default function Googledorking() {
                 key={platform}
                 className="p-4 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm"
               >
-                <h3 className="text-lg font-semibold mb-3 text-blue-600 dark:text-blue-400">
+                <h3 className="text-lg font-semibold mb-3 text-green-600 dark:text-green-400">
                   {platform}
                 </h3>
 
@@ -93,7 +93,7 @@ export default function Googledorking() {
 
                       <button
                         onClick={() => copy(query)}
-                        className="ml-3 px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700 active:scale-95"
+                        className="ml-3 px-3 py-1 bg-green-600 text-white text-sm rounded hover:bg-green-700 active:scale-95"
                       >
                         Copy
                       </button>
@@ -159,7 +159,7 @@ export default function Googledorking() {
 
           <button
             type="submit"
-            className="rounded-lg px-6 py-3 w-full bg-blue-600 text-white dark:bg-blue-500 dark:text-black shadow hover:scale-105 transition"
+            className="rounded-lg px-6 py-3 w-full bg-green-600 text-white dark:bg-green-500 dark:text-black shadow hover:scale-105 transition"
           >
             Submit
           </button>
