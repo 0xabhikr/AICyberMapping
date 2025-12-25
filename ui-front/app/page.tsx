@@ -23,7 +23,7 @@ export default function Home() {
           Google Dorking
         </Link>
 
-        <Link
+        {/* <Link
           href="/cyber-graphs"
           className="rounded-lg px-6 py-3 backdrop-blur-2xl bg-black/10 dark:bg-white/20 
       border border-black/20 dark:border-white/40 
@@ -43,7 +43,7 @@ export default function Home() {
       text-black dark:text-white transition hover:scale-105"
         >
           CDR Analaysis 
-        </Link>
+        </Link> */}
 
       </div>
     </div>
